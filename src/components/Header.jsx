@@ -1,10 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+    <nav className="navbar navbar-expand-sm navbar-dark shadow-5-strong">
 
   <div className="container-fluid">
 
