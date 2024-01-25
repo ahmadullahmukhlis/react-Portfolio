@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
   return (
@@ -28,39 +29,14 @@ const Header = () => {
 
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
-        </li>
-
-        <li className="nav-item dropdown">
-          <a
-            className="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-mdb-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Dropdown
+          <a className="nav-link active"  href="https://www.linkedin.com/in/ahmad-ullah-mukhlis-3a6962272/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon="fa-brands fa-linkedin-in" size='xl'  color='gold'/>
           </a>
-
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li>
-              <a className="dropdown-item" href="#">Action</a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">Another action</a>
-            </li>
-            <li><hr className="dropdown-divider" /></li>
-            <li>
-              <a className="dropdown-item" href="#">Something else here</a>
-            </li>
-          </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a className="nav-link active"  href="https://www.facebook.com/nasarimukhlis/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon="fa-brands fa-facebook"  size='xl' color='gold' />
+          </a>
         </li>
       </ul>
 
