@@ -38,6 +38,21 @@ const Header = () => {
           <FontAwesomeIcon icon="fa-brands fa-facebook"  size='xl' color='gold' />
           </a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link active"  href="https://github.com/ahmadullahmukhlis" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon="fa-brands fa-github"  size='xl' color='gold' />
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active"  href="https://www.youtube.com/channel/UCtO4W3H2vjA1Q9z8T5Yd4rQ" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon="fa-brands fa-youtube"  size='xl' color='gold' />
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active"  href="mailto:ahmadullahmukhlis2019@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon="fa-solid fa-envelope" size='xl' color='gold' />
+          </a>
+        </li>
       </ul>
 
     </div>
