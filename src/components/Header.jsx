@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
   return (
+    <div className="container">
     <nav className="navbar navbar-expand-sm navbar-dark shadow-5-strong">
 
   <div className="container-fluid">
@@ -62,7 +63,7 @@ const Header = () => {
   </div>
 
 </nav>
-
+</div>
   )
 }
 
