@@ -20,7 +20,7 @@ const Section = () => {
                      including Laravel, PHP, React, Next.js, Vue.js, and various database management systems,
                      enables me to deliver comprehensive web solutions that meet and exceed client expectations.
                     </p>
-                    <div className="d-block">
+                    <div className="d-block mt-5">
                      <a  className='d=inline-block mx-3' href="mailto:ahmadullahmukhlis2019@gmail.com" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon="fa-solid fa-envelope" size='xl' color='gold' />
                      </a>
@@ -29,6 +29,12 @@ const Section = () => {
                     </a>
                     <a className='d=inline-block mx-3'  href="https://www.facebook.com/nasarimukhlis/" target="_blank" rel="noopener noreferrer">
                       <FontAwesomeIcon icon="fa-brands fa-facebook"  size='xl' color='gold' />
+                    </a>
+                    <a className='d=inline-block mx-3'  href="https://github.com/ahmadullahmukhlis" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon="fa-brands fa-github"  size='xl' color='gold' />
+                    </a>
+                    <a className='d=inline-block mx-3'  href="https://www.youtube.com/channel/UCtO4W3H2vjA1Q9z8T5Yd4rQ" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon="fa-brands fa-youtube"  size='xl' color='gold' />
                     </a>
                     </div>
                 </div>
