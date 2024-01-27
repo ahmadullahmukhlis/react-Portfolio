@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Fade } from 'react-awesome-reveal';
 const Section = () => { 
   return (
     <>
@@ -13,7 +14,9 @@ const Section = () => {
                     <div className="card-title fs-1">
                         welcome to my world
                     </div>
-                    <h1 className="display-4"><strong>I am Ahmad Ullah Mukhlis full stack web developer</strong></h1>
+                    <Fade direction="left" delay={3} duration={3000} rotated={369}>
+                         <h1 className="display-4"><strong>I am Ahmad Ullah Mukhlis full stack web developer</strong></h1>
+                    </Fade>
                     <p className='mb-3'>
                     As a passionate and dedicated full-stack web developer, I specialize in creating high-quality,
                      robust, and user-friendly web applications. My expertise in a diverse set of technologies, 
@@ -37,10 +40,13 @@ const Section = () => {
                             <FontAwesomeIcon icon="fa-brands fa-youtube"  size='xl' color='gold' />
                     </a>
                     </div>
+                    
                 </div>
             </div>
            <div className="col-md-3">
-              <img className='img-fluid' src="./ahmad.png" alt="Ahmad" />
+              <Fade>
+                 <img className='img-fluid' src="./ahmad.png" alt="Ahmad" />
+              </Fade>
             </div>
            </div>
        </div>
