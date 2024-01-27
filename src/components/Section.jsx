@@ -1,13 +1,9 @@
 import React from 'react';
-import Header from './components/Header';
-import Section from './components/Section';
-const Projects = () => { // Destructure children from props
+
+const Section = () => { 
   return (
-  
-   <>
-      <Header />
-      <Section/>
-      <div className="container-fluid">
+    <>
+    <div className="container-fluid">
         <div className="row">
             <div className="col-md-8">
 
@@ -17,10 +13,8 @@ const Projects = () => { // Destructure children from props
             </div>
         </div>
     </div>
-   </>
-      
- 
+    </>
   );
 };
 
-export default Projects;
+export default Section;
